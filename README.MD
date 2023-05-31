@@ -42,11 +42,11 @@ To use this script, follow the steps below:
 ## Cron job
 For example, to run a backup script every day at midnight, you can add the following line to the crontab file: 0 0 * * * /home/user/backup.sh. This will execute the backup.sh script located in the /home/user directory at 12:00am every day.
 
-    - For edit crontab file
+- For edit crontab file
     ```
     crontab -e
     ```
-    - Add this line at the bottom of the file then save it
+- Add this line at the bottom of the file then save it
     ```
     0 0 * * * /home/user/backup.sh
     ```
