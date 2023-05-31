@@ -28,13 +28,13 @@ Before running the script, ensure that the required dependencies are installed o
 
 ## restore.sh Script Usage:
 To use this script, follow the steps below:
-    - Ensure that the "backup.sh" script was used to create a backup of the files you want to restore.
-    - Open a terminal and navigate to the directory containing the "restore.sh" script.
-    - Run the script with the following command: "./restore.sh [RESTORE_DIR] [DESTINATION_RESTORE_DIR] [DECRYPTION_KEY]"
-    - Replace [RESTORE_DIR] with the directory where the backup file is stored on the remote server.
-    - Replace [DESTINATION_RESTORE_DIR] with the directory where you want to restore the files.
-    - Replace [DECRYPTION_KEY] with the File that contains passphrase that was used to encrypt the backup files.
-    - Example Usage:
+- Ensure that the "backup.sh" script was used to create a backup of the files you want to restore.
+- Open a terminal and navigate to the directory containing the "restore.sh" script.
+- Run the script with the following command: "./restore.sh [RESTORE_DIR] [DESTINATION_RESTORE_DIR] [DECRYPTION_KEY]"
+- Replace [RESTORE_DIR] with the directory where the backup file is stored on the remote server.
+- Replace [DESTINATION_RESTORE_DIR] with the directory where you want to restore the files.
+- Replace [DECRYPTION_KEY] with the File that contains passphrase that was used to encrypt the backup files.
+- Example Usage:
     ```
     ./restore.sh /home/user/backup /home/user/restore /home/user/passphrase.txt
     ```
