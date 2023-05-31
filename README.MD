@@ -13,7 +13,7 @@ The goal of this Tool is to write 2 bash scripts that perform secure encrypted b
 Before running the script, ensure that the required dependencies are installed on your system, such as "gpg" and "tar". Also, ensure that you have the necessary permissions to access the target directory and the destination directory for the backup file. As well as ensure from ssh connection with the remote server to copy the Backed up files on it and change the values of the variables related to the server [REMOTE_USER] [REMOTE_HOST] [REMOTE_DEST_FILE] on the backup function to yours.
 
 ## backup.sh Script Usage:
-To use this script, follow the steps below:
+    To use this script, follow the steps below:
     - Determine the directory you want to backup and ensure that it contains the files you want to backup.
     - Open a terminal and navigate to the directory containing the "backup.sh" script.
     - Run the script with the following command: "./backup.sh [TARGET_DIR] [DESTINATION_DIR] [ENCRYPTION_KEY] [DAYS]"
