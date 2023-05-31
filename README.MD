@@ -4,10 +4,10 @@
 The goal of this Tool is to write 2 bash scripts that perform secure encrypted backup and restore functionality. You should be able to maneuver through the Linux configuration files and be able to schedule running the backup script on predefined times. Finally, you will need to copy the backup to a remote server.
 
 ## Used Tools and COmmands:
-    - Bash Script
-    - tar
-    - gnupg
-    - scp
+- Bash Script
+- tar
+- gnupg
+- scp
 
 ## Note:
 Before running the script, ensure that the required dependencies are installed on your system, such as "gpg" and "tar". Also, ensure that you have the necessary permissions to access the target directory and the destination directory for the backup file. As well as ensure from ssh connection with the remote server to copy the Backed up files on it and change the values of the variables related to the server [REMOTE_USER] [REMOTE_HOST] [REMOTE_DEST_FILE] on the backup function to yours.
